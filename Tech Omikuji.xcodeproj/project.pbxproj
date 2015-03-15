@@ -15,6 +15,11 @@
 		CE9A31341AB33846001731BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9A31331AB33846001731BF /* Images.xcassets */; };
 		CE9A31371AB33846001731BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9A31351AB33846001731BF /* LaunchScreen.xib */; };
 		CE9A31431AB33847001731BF /* Tech_OmikujiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9A31421AB33847001731BF /* Tech_OmikujiTests.m */; };
+		CEBFE6D51AB5C19D004A8C2E /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEBFE6D11AB5C19D004A8C2E /* images.jpeg */; };
+		CEBFE6D61AB5C19D004A8C2E /* daikichi.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBFE6D21AB5C19D004A8C2E /* daikichi.png */; };
+		CEBFE6D71AB5C19D004A8C2E /* kyo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEBFE6D31AB5C19D004A8C2E /* kyo.jpeg */; };
+		CEBFE6D81AB5C19D004A8C2E /* syokichi.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBFE6D41AB5C19D004A8C2E /* syokichi.png */; };
+		CEBFE6DB1AB5C3EF004A8C2E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBFE6DA1AB5C3EF004A8C2E /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,12 @@
 		CE9A313C1AB33847001731BF /* Tech OmikujiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tech OmikujiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9A31411AB33847001731BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE9A31421AB33847001731BF /* Tech_OmikujiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tech_OmikujiTests.m; sourceTree = "<group>"; };
+		CEBFE6D11AB5C19D004A8C2E /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		CEBFE6D21AB5C19D004A8C2E /* daikichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daikichi.png; sourceTree = "<group>"; };
+		CEBFE6D31AB5C19D004A8C2E /* kyo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kyo.jpeg; sourceTree = "<group>"; };
+		CEBFE6D41AB5C19D004A8C2E /* syokichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = syokichi.png; sourceTree = "<group>"; };
+		CEBFE6D91AB5C3EF004A8C2E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CEBFE6DA1AB5C3EF004A8C2E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +79,10 @@
 				CE9A31221AB33846001731BF /* Tech Omikuji */,
 				CE9A313F1AB33847001731BF /* Tech OmikujiTests */,
 				CE9A31211AB33846001731BF /* Products */,
+				CEBFE6D11AB5C19D004A8C2E /* images.jpeg */,
+				CEBFE6D21AB5C19D004A8C2E /* daikichi.png */,
+				CEBFE6D31AB5C19D004A8C2E /* kyo.jpeg */,
+				CEBFE6D41AB5C19D004A8C2E /* syokichi.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +102,8 @@
 				CE9A31281AB33846001731BF /* AppDelegate.m */,
 				CE9A312D1AB33846001731BF /* ViewController.h */,
 				CE9A312E1AB33846001731BF /* ViewController.m */,
+				CEBFE6D91AB5C3EF004A8C2E /* SecondViewController.h */,
+				CEBFE6DA1AB5C3EF004A8C2E /* SecondViewController.m */,
 				CE9A31301AB33846001731BF /* Main.storyboard */,
 				CE9A31331AB33846001731BF /* Images.xcassets */,
 				CE9A31351AB33846001731BF /* LaunchScreen.xib */,
@@ -203,8 +220,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9A31321AB33846001731BF /* Main.storyboard in Resources */,
+				CEBFE6D61AB5C19D004A8C2E /* daikichi.png in Resources */,
+				CEBFE6D81AB5C19D004A8C2E /* syokichi.png in Resources */,
+				CEBFE6D51AB5C19D004A8C2E /* images.jpeg in Resources */,
 				CE9A31371AB33846001731BF /* LaunchScreen.xib in Resources */,
 				CE9A31341AB33846001731BF /* Images.xcassets in Resources */,
+				CEBFE6D71AB5C19D004A8C2E /* kyo.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBFE6DB1AB5C3EF004A8C2E /* SecondViewController.m in Sources */,
 				CE9A312C1AB33846001731BF /* Tech_Omikuji.xcdatamodeld in Sources */,
 				CE9A31291AB33846001731BF /* AppDelegate.m in Sources */,
 				CE9A312F1AB33846001731BF /* ViewController.m in Sources */,
@@ -416,6 +438,7 @@
 				CE9A31481AB33847001731BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE9A31491AB33847001731BF /* Build configuration list for PBXNativeTarget "Tech OmikujiTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +447,7 @@
 				CE9A314B1AB33847001731BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

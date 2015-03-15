@@ -24,4 +24,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)pushBt{
+    number = arc4random_uniform(10); //0~9までの数字をランダムに
+    if (number > 7) {
+        omikujiLabel.text = @"大吉！！！";
+        omikujiLabel.textColor = [UIColor redColor];
+    }else if (number <=7 && number > 2){
+        omikujiLabel.text = @"吉。";
+        omikujiLabel.textColor = [UIColor blackColor];
+    }else{
+        omikujiLabel.text = @"凶…";
+        omikujiLabel.textColor = [UIColor blueColor];
+    }
+}
+
 @end
